@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App nav {
+  display: flex;
+  justify-content: space-around;
+  margin: 8px;
+}
+
+.App nav .current {
+  font-weight: bold;
+}
+
+.App main {
+  display: flex;
+  justify-content: center;
+  margin: 8px 16px;
+}
+
+.App canvas {
+  border: 1px solid black;
+  margin: 8px;
+}
